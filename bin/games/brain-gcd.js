@@ -1,16 +1,10 @@
 #!/usr/bin/env node
 import startGame from '../../src/index.js';
+import generateRandomNumber from '../common.js';
 
 let gameDescription = 'Find the greatest common divisor of given numbers.'
 
 const generateRound = () => {
-  // generate random number
-  const generateRandomNumber = (min, max) => {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  };
-
   let getGCD = (num1, num2) => {
     let result = 1;;
     while (num1!=num2) {

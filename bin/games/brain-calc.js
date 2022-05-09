@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import startGame from '../../src/index.js';
+import generateRandomNumber from '../common.js';
 
 let gameDescription = 'What is the result of the expression?'
 

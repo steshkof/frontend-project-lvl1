@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import startGame from '../../src/index.js';
+import generateRandomNumber from '../common.js';
 
 let gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".'
 
