@@ -11,8 +11,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Клонируем репозиторий
       - uses: actions/checkout@v2
-
-      - name: ESLint test
-      run: npm ci
-      run: make lint 
+      # Устанавливаем Node.js
+      - uses: actions/setup-node@v1
+      # Ставим зависимости
+      - run: npm install
+      # Запускаем линтер
+      - run: make lint 
