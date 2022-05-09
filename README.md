@@ -6,7 +6,7 @@
 
 ### Аскинема
 <!-- https://asciinema.org/a/y6qfRWcx1vh9p8NIYNx1LMTch -->
-https://asciinema.org/connect/246a6275-a74b-4b39-894b-9e840a9c27e7
+https://asciinema.org/a/ld543cjo7ZiPKcXXqDnG2ZuHd
 
 
 
