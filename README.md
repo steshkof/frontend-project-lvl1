@@ -6,11 +6,9 @@
 
 ### Аскинемы
 <!-- https://asciinema.org/a/y6qfRWcx1vh9p8NIYNx1LMTch -->
-Even
-https://asciinema.org/a/ld543cjo7ZiPKcXXqDnG2ZuHd
+[![Even](https://asciinema.org/a/ld543cjo7ZiPKcXXqDnG2ZuHd.svg)](https://asciinema.org/a/ld543cjo7ZiPKcXXqDnG2ZuHd)
 
-Calc
-https://asciinema.org/a/ehaq2qBzSGsLsPRquLkGiQEzS
+[![Calc](https://asciinema.org/a/ehaq2qBzSGsLsPRquLkGiQEzS.svg)](https://asciinema.org/a/ehaq2qBzSGsLsPRquLkGiQEzS)
 
 
 
