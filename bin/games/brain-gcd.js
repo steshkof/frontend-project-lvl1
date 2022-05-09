@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import startGame from '../../src/index.js';
 
-let gameDescription = 'What is the result of the expression?'
+let gameDescription = 'Find the greatest common divisor of given numbers.'
 
 const generateRound = () => {
   // generate random number

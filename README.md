@@ -10,6 +10,6 @@
 
 [![Calc](https://asciinema.org/a/ehaq2qBzSGsLsPRquLkGiQEzS.svg)](https://asciinema.org/a/ehaq2qBzSGsLsPRquLkGiQEzS)
 
-[![Gcd](https://asciinema.org/a/xO8VNHiImkSW3ZdEgW3XLbqRj.svg)](https://asciinema.org/a/xO8VNHiImkSW3ZdEgW3XLbqRj)
+[![Gcd](https://asciinema.org/a/xO8VNHiImkSW3ZdEgW3XLbqRj.svg)](https://asciinema.org/a/klwKR5j8R0nnrpR1WrL1GZ69J)
 
 
