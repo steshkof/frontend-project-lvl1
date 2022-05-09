@@ -2,35 +2,32 @@
 import startGame from '../../src/index.js';
 import generateRandomNumber from '../common.js';
 
-let gameDescription = 'What number is missing in the progression?'
+const gameDescription = 'What number is missing in the progression?';
 
 const generateRound = () => {
   // generate progression step
-  const progressionStep = generateRandomNumber(2,6);
-  
+  const progressionStep = generateRandomNumber(2, 6);
   // generate grogression length
   const minProgressionLength = 5;
   const maxProgressionLength = 15;
-  const progressionLength = generateRandomNumber(minProgressionLength,maxProgressionLength);
-  
+  const progressionLength = generateRandomNumber(minProgressionLength, maxProgressionLength);
   // generate number of missing element
-  const missingProgressionElementIndex = generateRandomNumber(minProgressionLength - 1,progressionLength - 1);
+  const missingElementIndex = generateRandomNumber(minProgressionLength - 1, progressionLength - 1);
 
   // generate progression
-  const progressionStartNumber = generateRandomNumber(1,50)
-  let progressionArray = [progressionStartNumber];
-  for (let i = 0; i < progressionLength; i++) {
+  const progressionStartNumber = generateRandomNumber(1, 50);
+  const progressionArray = [progressionStartNumber];
+  for (let i = 0; i < progressionLength; i += 1) {
     progressionArray.push(progressionArray[i] + progressionStep);
   }
 
-  //remove missing element from array and add it as a correct answer
-  const correctAnswer = progressionArray[missingProgressionElementIndex];
-  progressionArray[missingProgressionElementIndex] = "..";
+  // remove missing element from array and add it as a correct answer
+  const correctAnswer = progressionArray[missingElementIndex];
+  progressionArray[missingElementIndex] = '..';
 
-  let progressionString = progressionArray.join(' ');
-  const question = `${progressionString}`  
-  
+  const progressionString = progressionArray.join(' ');
+  const question = `${progressionString}`;
   return [question, correctAnswer];
-}
+};
 
 startGame(gameDescription, generateRound);
