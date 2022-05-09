@@ -9,19 +9,15 @@ const generateRandomNumber = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 
-// GAME
-
 // Greeting
 const playersName = readlineSync.question('May I have your name? ');
-
 console.log(`Hello, ${playersName}`);
 console.log('Answer "yes" if the number is even, otherwise answer "no".')
 
+// GAME
 const numberOfCorrectAnswersToWin = 3;
 const minNumberToShow = 1;
 const maxNumberToShow = 100;
-
-let gameWon = false;
 
 for (let i = 0; i < numberOfCorrectAnswersToWin; i++) {  
   const numberToShow = generateRandomNumber(minNumberToShow,maxNumberToShow);
@@ -39,7 +35,9 @@ for (let i = 0; i < numberOfCorrectAnswersToWin; i++) {
     console.log(incorrectAnswerResponse)
     break;
   }
-  gameWon = true;
+
+  // last step, show congrats if passed
+  if (i == numberOfCorrectAnswersToWin - 1) console.log(`Congratulations, ${playersName}!`)
 }
 
-if (gameWon) console.log(`Congratulations, ${playersName}!`)
+
