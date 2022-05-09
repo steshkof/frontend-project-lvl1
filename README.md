@@ -6,10 +6,16 @@
 
 ### Аскинемы
 <!-- https://asciinema.org/a/y6qfRWcx1vh9p8NIYNx1LMTch -->
+
+###### Even
 [![Even](https://asciinema.org/a/ld543cjo7ZiPKcXXqDnG2ZuHd.svg)](https://asciinema.org/a/ld543cjo7ZiPKcXXqDnG2ZuHd)
 
+###### Calc
 [![Calc](https://asciinema.org/a/ehaq2qBzSGsLsPRquLkGiQEzS.svg)](https://asciinema.org/a/ehaq2qBzSGsLsPRquLkGiQEzS)
 
+###### Gcd
 [![Gcd](https://asciinema.org/a/xO8VNHiImkSW3ZdEgW3XLbqRj.svg)](https://asciinema.org/a/klwKR5j8R0nnrpR1WrL1GZ69J)
 
+###### Progression
+[![Progression](https://asciinema.org/a/hPrflXlcP8XLdowcKXePunjNE)](https://asciinema.org/a/klwKR5j8R0nnrpR1WrL1GZ69J)
 
