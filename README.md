@@ -4,7 +4,8 @@
 ### Eslint status:
 ![Actions Status](https://github.com/steshkof/frontend-project-lvl1/actions/workflows/eslint.yml/badge.svg)
 
-
+##Аскинема
+https://asciinema.org/a/y6qfRWcx1vh9p8NIYNx1LMTch
 
 
 
