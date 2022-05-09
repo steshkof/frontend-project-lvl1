@@ -4,9 +4,13 @@
 ### Eslint status:
 ![Actions Status](https://github.com/steshkof/frontend-project-lvl1/actions/workflows/eslint.yml/badge.svg)
 
-### Аскинема
+### Аскинемы
 <!-- https://asciinema.org/a/y6qfRWcx1vh9p8NIYNx1LMTch -->
+Even
 https://asciinema.org/a/ld543cjo7ZiPKcXXqDnG2ZuHd
+
+Calc
+https://asciinema.org/a/ehaq2qBzSGsLsPRquLkGiQEzS
 
 
 
