@@ -18,7 +18,8 @@
   "homepage": "https://github.com/steshkof/frontend-project-lvl1#readme",
   "type": "module",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "readline-sync": "^1.4.10"
   },
   "bin": {
     "brain-games": "bin/brain-games.js"
