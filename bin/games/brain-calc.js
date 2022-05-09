@@ -5,13 +5,6 @@ import generateRandomNumber from '../common.js';
 let gameDescription = 'What is the result of the expression?'
 
 const generateRound = () => {
-  // generate random number
-  const generateRandomNumber = (min, max) => {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  };
-
   const minNumberToShow = 1;
   const maxNumberToShow = 10;
   
