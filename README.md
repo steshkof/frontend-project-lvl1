@@ -1,5 +1,5 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/steshkof/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/steshkof/frontend-project-lvl1/actions) [![Maintainability](https://api.codeclimate.com/v1/badges/06a26660af4ce69752ee/maintainability)](https://codeclimate.com/github/steshkof/frontend-project-lvl1/maintainability)(https://github.com/steshkof/frontend-project-lvl1/actions)![Actions Status](https://github.com/steshkof/frontend-project-lvl1/actions/workflows/eslint.yml/badge.svg)
+[![Actions Status](https://github.com/steshkof/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/steshkof/frontend-project-lvl1/actions) [![Maintainability](https://api.codeclimate.com/v1/badges/06a26660af4ce69752ee/maintainability)](https://codeclimate.com/github/steshkof/frontend-project-lvl1/maintainability)![Actions Status](https://github.com/steshkof/frontend-project-lvl1/actions/workflows/eslint.yml/badge.svg)(https://github.com/steshkof/frontend-project-lvl1/actions)
 
 ### Аскинемы
 <!-- https://asciinema.org/a/y6qfRWcx1vh9p8NIYNx1LMTch -->
