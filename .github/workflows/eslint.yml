@@ -1,21 +1,14 @@
 name: eslint
 
-on:
-  push:
-    branches:
-      - '**'
-    tags:
-      - '**'
+on: push
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
-      # Клонируем репозиторий
-      - uses: actions/checkout@v2
-      # Устанавливаем Node.js
-      - uses: actions/setup-node@v1
-      # Ставим зависимости
-      - run: npm install
-      # Запускаем линтер
-      - run: make lint 
+      - name: checkout repo
+        uses: actions/checkout@v2
+      - name: install
+        run: make install
+      - name: ESLint test
+        run: make lint
