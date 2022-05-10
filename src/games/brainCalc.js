@@ -1,5 +1,4 @@
-#!/usr/bin/env node
-import startGame from '../../src/index.js';
+import startGame from '../index.js';
 import generateRandomNumber from '../common.js';
 
 const gameDescription = 'What is the result of the expression?';
@@ -17,10 +16,12 @@ const generateRound = () => {
   const correctAnswer = () => {
     if (operator === '+') return firstNumber + secondNumber;
     if (operator === '-') return firstNumber - secondNumber;
-    return firstNumber * secondNumber;
+    if (operator === '*') return firstNumber * secondNumber;
+    throw new Error('Unknown operator');
   };
 
   return [expression, correctAnswer()];
 };
 
-startGame(gameDescription, generateRound);
+const brainCalc = () => startGame(gameDescription, generateRound);
+export default brainCalc;

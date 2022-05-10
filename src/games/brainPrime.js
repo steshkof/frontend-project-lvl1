@@ -1,5 +1,4 @@
-#!/usr/bin/env node
-import startGame from '../../src/index.js';
+import startGame from '../index.js';
 import generateRandomNumber from '../common.js';
 
 const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
@@ -23,4 +22,5 @@ const generateRound = () => {
   return [question, correctAnswer];
 };
 
-startGame(gameDescription, generateRound);
+const brainPrime = () => startGame(gameDescription, generateRound);
+export default brainPrime;

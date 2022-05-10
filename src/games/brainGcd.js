@@ -1,5 +1,4 @@
-#!/usr/bin/env node
-import startGame from '../../src/index.js';
+import startGame from '../index.js';
 import generateRandomNumber from '../common.js';
 
 const gameDescription = 'Find the greatest common divisor of given numbers.';
@@ -30,4 +29,5 @@ const generateRound = () => {
   return [question, correctAnswer];
 };
 
-startGame(gameDescription, generateRound);
+const brainGcd = () => startGame(gameDescription, generateRound);
+export default brainGcd;
