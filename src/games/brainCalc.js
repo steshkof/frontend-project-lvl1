@@ -17,7 +17,7 @@ const generateRound = () => {
     if (operator === '+') return firstNumber + secondNumber;
     if (operator === '-') return firstNumber - secondNumber;
     if (operator === '*') return firstNumber * secondNumber;
-    throw new Error('Unknown operator');
+    throw new Error(`Unknown operator - ${operator}`);
   };
 
   return [expression, correctAnswer()];
