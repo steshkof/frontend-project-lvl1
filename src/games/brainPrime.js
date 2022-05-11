@@ -16,7 +16,7 @@ const generateRound = () => {
     return result;
   };
 
-  const question = generateRandomNumber(1, 20);
+  const question = generateRandomNumber(2, 20);
   const correctAnswer = isPrime(question);
 
   return [question, correctAnswer];
