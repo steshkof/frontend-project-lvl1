@@ -4,20 +4,9 @@ import generateRandomNumber from '../common.js';
 const gameDescription = 'Find the greatest common divisor of given numbers.';
 
 const generateRound = () => {
-  const getGCD = (number1, number2) => {
-    let result = 1;
-    let num1 = number1;
-    let num2 = number2;
-    while (num1 !== num2) {
-      if (num1 > num2) {
-        num1 -= num2;
-      } else {
-        num2 -= num1;
-      }
-    }
-    result = num1;
-    return result;
-  };
+  function getGCD(number1, number2) {
+    return !number2 ? number1 : getGCD(number2, number1 % number2);
+  }
 
   const minNumberToShow = 1;
   const maxNumberToShow = 20;

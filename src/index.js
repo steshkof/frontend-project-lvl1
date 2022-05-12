@@ -8,7 +8,6 @@ const startGame = (gameDescription, generateRound) => {
   console.log(gameDescription);
 
   // GAME
-  // number of games
   const numberOfCorrectAnswersToWin = 3;
 
   // game rounds
